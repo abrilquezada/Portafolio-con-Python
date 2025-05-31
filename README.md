@@ -182,7 +182,7 @@ CAPM = Rf + portfolio_beta * (Rm - Rf)
 
 ## Resultados y Comparaciones
 
-- Portafolio óptimo
+#### Portafolio óptimo (M)
   
 
 | Concepto     | Valor    |
@@ -190,8 +190,10 @@ CAPM = Rf + portfolio_beta * (Rm - Rf)
 | Rendimiento  | 21.59%   |
 | Riesgo       |   20.05% |
 | I. Sharpe    |    1.08  |
+| Beta         |    1.01  |
 
-Estructura
+
+- Estructura de M
 
 | Acción       |   Peso   |
 | ------------ | --------:|
@@ -203,5 +205,13 @@ Estructura
 | HD           |  3.31%   |
 | WMT          |  6.13%   |
 | CAT          |  7.26%   |
-| MSFT         |  7.26%   |
+| KO           |  1.82%   |
+| AAPL         |  26.39%  |
 
+#### Portafolio Mínima Varianza (PMV)
+| Concepto     | Valor    |
+| ------------ | --------:|
+| Rendimiento  |          |
+| Riesgo       |          |
+| I. Sharpe    |          |
+| Beta         |          |
