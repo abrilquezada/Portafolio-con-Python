@@ -72,4 +72,20 @@ $$
 
 6. Portafolio Mínima Varianza (PMV): es aquel con la menor varianza posible de entre todas las combinaciones existentes de los activos con riesgo. 
 
-![Frontera eficiente]C:\Users\qabri\Downloads\PMV.png 
+![Frontera eficiente](PMV.png)
+
+7. Optimización
+   - Capital Market Line es la línea tangente que se dibuja a partir de invertir todo en el activo libre de riesgo y se va formado con las diferentes combinaciones entre el portafolio.
+   - Portafolio óptimo (M) es aquel que maximiza la relación riesgo y rendimiento de todas las combinaciones posibles
+   - Índice de Sharpe: relaciona la prima de riesgo contra el riesgo propio de la inversión
+
+$$
+Is = \frac{E(r_p) - rf}{SD(p)}
+$$
+
+   - Beta: mide la sensibilidad de un activo respecto al mercado, es una herramienta para medir el riesgo sistémico
+
+$$
+\beta_p = \frac{COV(R_p, R_m)}{VAR(m)}
+$$
+
