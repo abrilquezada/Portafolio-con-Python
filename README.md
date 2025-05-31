@@ -231,3 +231,4 @@ CAPM = Rf + portfolio_beta * (Rm - Rf)
 | CAT          |  3.05%   |
 | KO           |  0.00%   |
 | AAPL         |  32.58%  |
+
