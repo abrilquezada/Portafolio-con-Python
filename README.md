@@ -232,4 +232,4 @@ CAPM = Rf + portfolio_beta * (Rm - Rf)
 | KO           |  0.00%   |
 | AAPL         |  32.58%  |
 
-##Por Fernanda Santillán Guzmán y Abril M. Quezada Reyes 
+## Por Fernanda Santillán Guzmán y Abril M. Quezada Reyes 
