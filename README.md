@@ -23,7 +23,7 @@ libre de riesgo para determinar la prima
 3. [Estructura del Código](#estructura-del-código)
 4. [Características Destacadas](#características-destacadas)
 5. [Resultados y Comparaciones](#resultados-y-comparaciones)
-6. [Conclusiones](#conclusiones)
+
 
 ## Requisitos
 
