@@ -89,3 +89,6 @@ $$
 \beta_p = \frac{COV(R_p, R_m)}{VAR(m)}
 $$
 
+![optimizacion](optimizacion.png)
+
+
