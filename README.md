@@ -25,8 +25,15 @@ libre de riesgo para determinar la prima
 5. [Resultados y Comparaciones](#resultados-y-comparaciones)
 6. [Conclusiones](#conclusiones)
 
-## Requisitos 
-```
+## Requisitos
+
+✅ instala la librería de Python llamada QuantStats, que es una herramienta para el análisis de carteras y la evaluación de estrategias de inversión:
+ ```python
+pip install quantstats
+ ```
+
+✅ Necesitaras las siguientes funciones: 
+```python
 import yfinance as yf
 import numpy as np
 import pandas as pd
@@ -35,4 +42,34 @@ import quantstats as qs
 import plotly.express as px
 from scipy.stats import norm
 import random
-```
+ ```
+## Estructura del código 
+1. Obtener los retornos: 
+ - Para las 10 acciones
+ - Benchmark
+
+2. Rendimiento esperado de cada acción: media aritmética de los promedios del activo (anualizado)
+
+3. Riesgo de cada acción anualizado: se mide a través de la varianza y para estandarizar la métrica se usa la desviación estándar (σ)
+
+4. Rendimiento esperado del portafolio:
+
+$$
+E(r_p) = w_aE(r_a) + w_bE(r_b)
+$$
+
+  Donde:
+ 
+   W = peso del activo en el portafolio.
+ 
+   E = rendimiento esperado del activo.
+
+5. Riesgo del portafolio:
+
+$$
+Var(p) = [w_a^2 * \sigma_a^2] + [w_b^2 * \sigma_b^2] + [2w_a w_b COV_{a,b}]
+$$
+
+6. Portafolio Mínima Varianza (PMV): es aquel con la menor varianza posible de entre todas las combinaciones existentes de los activos con riesgo. 
+
+![Frontera eficiente]C:\Users\qabri\Downloads\PMV.png 
